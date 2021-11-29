@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  margin: 40;
+  padding: 40;
+  box-sizing: border-box;
+}
+
+.containe {
+  width: 1200px;
+  margin: auto;
+  
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  color: white;
+  width: 100%;
+  padding: 20px 40px;
+
+  transition: all 0.3s linear;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  font-weight: 600;
+  margin: 0px 14px;
+}

@@ -8,8 +8,11 @@ import { MaterialModule } from './material/material.module';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { FindempComponent } from './components/findemp/findemp.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
-@NgModule({
+
+@NgModule({ 
   declarations: [
     AppComponent,
     HomeComponent,
@@ -20,7 +23,9 @@ import { FindempComponent } from './components/findemp/findemp.component';
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
-    BrowserAnimationsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
